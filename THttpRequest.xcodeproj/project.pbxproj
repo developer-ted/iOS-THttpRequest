@@ -16,6 +16,13 @@
 		9F4230201DD9A88100F13200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F42301E1DD9A88100F13200 /* LaunchScreen.storyboard */; };
 		9F42302E1DD9AF4500F13200 /* APIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F42302D1DD9AF4500F13200 /* APIUtils.m */; };
 		9F4230311DD9AF6200F13200 /* TokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4230301DD9AF6200F13200 /* TokenManager.m */; };
+		9F4230451DD9B18100F13200 /* APIHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4230441DD9B18100F13200 /* APIHeader.m */; };
+		9F4230481DD9B1AA00F13200 /* TAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4230471DD9B1AA00F13200 /* TAPIManager.m */; };
+		9F4230511DD9B20000F13200 /* APIRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4230501DD9B20000F13200 /* APIRequestClient.m */; };
+		9F4230541DD9B21500F13200 /* APIRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4230531DD9B21500F13200 /* APIRequestManager.m */; };
+		9F4230571DD9C53B00F13200 /* HttpRequestToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4230561DD9C53B00F13200 /* HttpRequestToast.m */; };
+		9F42305A1DD9C6A100F13200 /* APIUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4230591DD9C6A100F13200 /* APIUserDefaults.m */; };
+		9F4230601DD9C7BE00F13200 /* APIEncording.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F42305F1DD9C7BE00F13200 /* APIEncording.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,24 @@
 		9F42302D1DD9AF4500F13200 /* APIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIUtils.m; path = api/utils/APIUtils.m; sourceTree = "<group>"; };
 		9F42302F1DD9AF6200F13200 /* TokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TokenManager.h; path = api/utils/TokenManager.h; sourceTree = "<group>"; };
 		9F4230301DD9AF6200F13200 /* TokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TokenManager.m; path = api/utils/TokenManager.m; sourceTree = "<group>"; };
+		9F4230371DD9B11700F13200 /* APIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIConfig.h; path = api/config/APIConfig.h; sourceTree = "<group>"; };
+		9F42303A1DD9B12500F13200 /* APIAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIAddress.h; path = api/config/APIAddress.h; sourceTree = "<group>"; };
+		9F42303D1DD9B13500F13200 /* APIErrorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIErrorType.h; path = api/config/APIErrorType.h; sourceTree = "<group>"; };
+		9F4230401DD9B14500F13200 /* APIField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIField.h; path = api/config/APIField.h; sourceTree = "<group>"; };
+		9F4230431DD9B18100F13200 /* APIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIHeader.h; path = api/requestclient/APIHeader.h; sourceTree = "<group>"; };
+		9F4230441DD9B18100F13200 /* APIHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIHeader.m; path = api/requestclient/APIHeader.m; sourceTree = "<group>"; };
+		9F4230461DD9B1AA00F13200 /* TAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAPIManager.h; path = api/requestclient/TAPIManager.h; sourceTree = "<group>"; };
+		9F4230471DD9B1AA00F13200 /* TAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAPIManager.m; path = api/requestclient/TAPIManager.m; sourceTree = "<group>"; };
+		9F42304F1DD9B20000F13200 /* APIRequestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIRequestClient.h; path = api/requestclient/APIRequestClient.h; sourceTree = "<group>"; };
+		9F4230501DD9B20000F13200 /* APIRequestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIRequestClient.m; path = api/requestclient/APIRequestClient.m; sourceTree = "<group>"; };
+		9F4230521DD9B21500F13200 /* APIRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIRequestManager.h; path = api/requestclient/APIRequestManager.h; sourceTree = "<group>"; };
+		9F4230531DD9B21500F13200 /* APIRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIRequestManager.m; path = api/requestclient/APIRequestManager.m; sourceTree = "<group>"; };
+		9F4230551DD9C53B00F13200 /* HttpRequestToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequestToast.h; path = api/utils/HttpRequestToast.h; sourceTree = "<group>"; };
+		9F4230561DD9C53B00F13200 /* HttpRequestToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequestToast.m; path = api/utils/HttpRequestToast.m; sourceTree = "<group>"; };
+		9F4230581DD9C6A100F13200 /* APIUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIUserDefaults.h; path = api/utils/APIUserDefaults.h; sourceTree = "<group>"; };
+		9F4230591DD9C6A100F13200 /* APIUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIUserDefaults.m; path = api/utils/APIUserDefaults.m; sourceTree = "<group>"; };
+		9F42305E1DD9C7BE00F13200 /* APIEncording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIEncording.h; path = api/utils/APIEncording.h; sourceTree = "<group>"; };
+		9F42305F1DD9C7BE00F13200 /* APIEncording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIEncording.m; path = api/utils/APIEncording.m; sourceTree = "<group>"; };
 		AD5373063F67D3BB355A22A9 /* Pods-THttpRequest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THttpRequest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THttpRequest/Pods-THttpRequest.debug.xcconfig"; sourceTree = "<group>"; };
 		D22AD06B72646DD97BC2C1D5 /* libPods-THttpRequest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THttpRequest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -118,6 +143,12 @@
 				9F42302D1DD9AF4500F13200 /* APIUtils.m */,
 				9F42302F1DD9AF6200F13200 /* TokenManager.h */,
 				9F4230301DD9AF6200F13200 /* TokenManager.m */,
+				9F4230551DD9C53B00F13200 /* HttpRequestToast.h */,
+				9F4230561DD9C53B00F13200 /* HttpRequestToast.m */,
+				9F4230581DD9C6A100F13200 /* APIUserDefaults.h */,
+				9F4230591DD9C6A100F13200 /* APIUserDefaults.m */,
+				9F42305E1DD9C7BE00F13200 /* APIEncording.h */,
+				9F42305F1DD9C7BE00F13200 /* APIEncording.m */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -125,6 +156,14 @@
 		9F4230321DD9AF7300F13200 /* requestclient */ = {
 			isa = PBXGroup;
 			children = (
+				9F4230461DD9B1AA00F13200 /* TAPIManager.h */,
+				9F4230471DD9B1AA00F13200 /* TAPIManager.m */,
+				9F4230431DD9B18100F13200 /* APIHeader.h */,
+				9F4230441DD9B18100F13200 /* APIHeader.m */,
+				9F42304F1DD9B20000F13200 /* APIRequestClient.h */,
+				9F4230501DD9B20000F13200 /* APIRequestClient.m */,
+				9F4230521DD9B21500F13200 /* APIRequestManager.h */,
+				9F4230531DD9B21500F13200 /* APIRequestManager.m */,
 			);
 			name = requestclient;
 			sourceTree = "<group>";
@@ -132,6 +171,10 @@
 		9F4230331DD9AF8300F13200 /* config */ = {
 			isa = PBXGroup;
 			children = (
+				9F4230371DD9B11700F13200 /* APIConfig.h */,
+				9F42303A1DD9B12500F13200 /* APIAddress.h */,
+				9F42303D1DD9B13500F13200 /* APIErrorType.h */,
+				9F4230401DD9B14500F13200 /* APIField.h */,
 			);
 			name = config;
 			sourceTree = "<group>";
@@ -268,8 +311,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F4230311DD9AF6200F13200 /* TokenManager.m in Sources */,
+				9F4230571DD9C53B00F13200 /* HttpRequestToast.m in Sources */,
 				9F42302E1DD9AF4500F13200 /* APIUtils.m in Sources */,
+				9F4230511DD9B20000F13200 /* APIRequestClient.m in Sources */,
+				9F4230601DD9C7BE00F13200 /* APIEncording.m in Sources */,
+				9F42305A1DD9C6A100F13200 /* APIUserDefaults.m in Sources */,
+				9F4230541DD9B21500F13200 /* APIRequestManager.m in Sources */,
 				9F4230181DD9A88100F13200 /* ViewController.m in Sources */,
+				9F4230481DD9B1AA00F13200 /* TAPIManager.m in Sources */,
+				9F4230451DD9B18100F13200 /* APIHeader.m in Sources */,
 				9F4230151DD9A88100F13200 /* AppDelegate.m in Sources */,
 				9F4230121DD9A88100F13200 /* main.m in Sources */,
 			);

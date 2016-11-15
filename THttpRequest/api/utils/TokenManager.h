@@ -10,4 +10,13 @@
 
 @interface TokenManager : NSObject
 
++ (NSString *)getBasicToken;
+
++ (void)setToken:(id)response;
++ (void)resetToken;
+
++ (NSString *)getAccessToken;
++ (NSString *)getRefreshToken;
++ (NSString *)getSID;
+
 @end
